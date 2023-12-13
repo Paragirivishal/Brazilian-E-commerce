@@ -1,0 +1,9 @@
+{
+	"name": "braziliandevprg",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "6d26d2d9-d02c-4daf-97d3-3ed298d808a7",
+		"tenantId": "76a2ae5a-9f00-4f6b-95ed-5d33d77c4d61"
+	}
+}
