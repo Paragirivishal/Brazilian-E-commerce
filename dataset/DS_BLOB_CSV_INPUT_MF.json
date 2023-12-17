@@ -1,0 +1,51 @@
+{
+	"name": "DS_BLOB_CSV_INPUT_MF",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_BLOB_CSV_INPUT_MF",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "input"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "index",
+				"type": "String"
+			},
+			{
+				"name": "SKU Code",
+				"type": "String"
+			},
+			{
+				"name": "Design No.",
+				"type": "String"
+			},
+			{
+				"name": "Stock",
+				"type": "String"
+			},
+			{
+				"name": "Category",
+				"type": "String"
+			},
+			{
+				"name": "Size",
+				"type": "String"
+			},
+			{
+				"name": "Color",
+				"type": "String"
+			}
+		]
+	}
+}
