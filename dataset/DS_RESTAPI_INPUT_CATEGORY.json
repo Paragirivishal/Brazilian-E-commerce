@@ -1,0 +1,12 @@
+{
+	"name": "DS_RESTAPI_INPUT_CATEGORY",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_RESTAPI_INPUT_CATEGORY",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "RestResource",
+		"schema": []
+	}
+}

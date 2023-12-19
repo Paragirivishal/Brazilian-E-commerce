@@ -1,0 +1,20 @@
+{
+	"name": "DS_RESTAPI_OUTPUT_CATEGORY",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_RESTAPI_OUTPUT_CATEGORY",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "REST API Category Dataset ",
+				"fileSystem": "targetfile"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	}
+}

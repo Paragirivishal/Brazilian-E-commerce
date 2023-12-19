@@ -49,7 +49,7 @@
 				"userProperties": [],
 				"typeProperties": {
 					"pipeline": {
-						"referenceName": "PL_REST_API_TO_PAR",
+						"referenceName": "PL_REST_API_TO_PAR1",
 						"type": "PipelineReference"
 					},
 					"waitOnCompletion": true

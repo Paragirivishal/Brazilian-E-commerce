@@ -1,0 +1,12 @@
+{
+	"name": "DS_REST_API_SELLER_FILE",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_REST_API_SELLER_FILE",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "RestResource",
+		"schema": []
+	}
+}
